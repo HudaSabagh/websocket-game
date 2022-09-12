@@ -1,0 +1,52 @@
+html, body {
+    font-family: "Press Start 2P";
+}
+body {
+    padding: 30px;
+    background-color: antiquewhite;
+}
+
+.text-left {
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    width: 500px;
+    pointer-events: none;
+}
+
+.text-right {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    width: 500px;
+    pointer-events: none;
+}
+
+/* buttons */
+.btn-catch {
+    display: none;
+    position: absolute;
+    top: 44%;
+    left: 45%;
+    width: 99px;
+    height: 99px;
+    transition: 0.1s ease all;
+}
+.btn-start {
+    display: block;
+    position: absolute;
+    top: 40%;
+    left:45%;
+    transition: 0.1s ease all;
+    background: white;
+    color: black;
+    border: 4px solid black;
+    width: 140px;
+    height: 140px;
+}
+
+.home-btn {
+    position: absolute;
+    right: 25px;
+    bottom: 25px;
+}

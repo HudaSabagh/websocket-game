@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta Tags -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catch the Button</title>
+    <!-- Links -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+    <link href="https://unpkg.com/nes.css/css/nes.css" rel="stylesheet" />
+    <link href="styles/main.css" rel="stylesheet" >
+</head>
+<body>
+    <section>
+        <button type="button" id="catchButton" class="btn-catch btn btn-lg btn-danger"></button>
+        <button type="button" id="startButton" class="btn-start btn btn-lg">Start</button>
+        <a href="." class="nes-btn is-warning home-btn">Home</a>
+
+        <div class="starting-section">
+            <div class="text-left" style="border-bottom: 3px solid black; border-right: 2px solid black;">
+                <h3>Hello Coding School</h3>
+                <p>i am .. the.. internet..</p>
+            </div>
+            <div class="text-right" style="border-bottom: 3px solid black; border-left: 2px solid black;">
+                <h3>What's this?</h3>
+                <p>This is a game to catch the button</p>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Socket.IO connection with HTML and JavaScript -->
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="script/app.js" ></script>
+</body>
+</html>

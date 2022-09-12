@@ -1,0 +1,19 @@
+{
+  "name": "websocket-click-game",
+  "version": "0.0.1",
+  "description": "a game to see who is the fastest clicker",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.tailored-apps.com/coding-school/ws2021/webdevelopment/webdevelopment-codingschoolstudents-ws2021/websocket-click-game.git"
+  },
+  "author": "Alen Kvakic",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^4.4.0"
+  }
+}
